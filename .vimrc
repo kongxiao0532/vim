@@ -503,3 +503,6 @@ let g:ctrlp_custom_ignore = '\v\.(exe|so|dll)$'
 let g:ctrlp_extensions = ['funky']
 
 let NERDTreeIgnore=['\.pyc']
+
+" Add a space when comment
+let g:NERDSpaceDelims=1
