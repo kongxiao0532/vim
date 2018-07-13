@@ -15,15 +15,15 @@ fi
 sudo easy_install -ZU autopep8 
 sudo ln -s /usr/bin/ctags /usr/local/bin/ctags
 mv -f ~/vim ~/vim_old
-cd ~/ && git clone https://github.com/EricDracula/vim.git
+cd ~/ && git clone https://github.com/kongxiao0532/vim.git
 mv -f ~/.vim ~/.vim_old
 mv -f ~/vim ~/.vim
 mv -f ~/.vimrc ~/.vimrc_old
 mv -f ~/.vim/.vimrc ~/
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-echo "正在努力为您安装bundle程序" > dracula_vim_tmp
-echo "安装完毕将自动退出" >> dracula_vim_tmp
-echo "请耐心等待" >> dracula_vim_tmp
-vim dracula_vim_tmp -c "BundleInstall" -c "q" -c "q"
-rm dracula_vim_tmp
+echo "正在努力为您安装bundle程序" > kongxiao0532_vim_tmp
+echo "安装完毕将自动退出" >> kongxiao0532_vim_tmp
+echo "请耐心等待" >> kongxiao0532_vim_tmp
+vim kongxiao0532_vim_tmp -c "BundleInstall" -c "q" -c "q"
+rm kongxiao0532_vim_tmp
 echo "安装完成"
